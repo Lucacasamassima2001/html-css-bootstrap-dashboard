@@ -1,11 +1,16 @@
 
+
+.content{
+    display: flex;
+}
+ 
+ 
  /* HEADER WITH NAV */
 
 header{
     width: 100%;
     height: 80px;
     background-color: white;
-    border-bottom: 3px solid black;
 }
 
 
@@ -67,9 +72,10 @@ header{
 
 .left-bar{
     height: 100vh;
-    width: 150px;
+    width: 160px;
     background-color: rgba(5,30,52,255);
     background-image: url(../assets/img/sidebar-bg.png);
+    
 }
 
 @media screen and (max-width:1000px) {
@@ -119,13 +125,13 @@ header{
 
 
 .bar-icon-bg{
-    width: 80%;
     padding: .2em;
     cursor: pointer;
 }
 
 
 .bar-icon-bg i{
+    width: 20px;
     margin-right: .5em;
 }
 
@@ -158,3 +164,55 @@ header{
 }
 
 /* END LEFT BAR */
+
+
+/* START MAIN */
+
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    overflow-y: auto;
+    padding-top: 80px;
+}
+
+
+.boolean{
+    width: 100%;
+    height: 130px;
+    background-color: rgba(27,114,232,255);
+    color: white;
+}
+
+@media screen and (max-width:1000px) {
+
+    .boolean{
+        height: 230px;
+    }
+
+
+    .first{
+        order: -1;
+
+    }
+
+    
+    .offcanvas{
+        min-width: 100%;
+    }
+
+}
+
+
+.badge{
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+}
+
+.btn{
+    border: 1px solid white;
+    color: white;
+}
+
