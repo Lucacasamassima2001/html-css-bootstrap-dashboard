@@ -184,7 +184,7 @@ main{
     color: white;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:767px) {
 
     .boolean{
         height: 230px;
@@ -217,9 +217,13 @@ main{
 
 /* START TABLE */
 
-tr{
-    border-bottom: 1px solid lightgrey;
+
+
+
+table{
+    border: none;
 }
+
 
 
 td{
